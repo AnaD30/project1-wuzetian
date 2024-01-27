@@ -5,6 +5,18 @@
     border:none;
 }
 body{
-    font-family: old Standard TT,sans-serif;
+    font-family:Metrophobic,sans-serif;
     font-weight:300;
+    color:#350242d4;
+}
+/*heading and logo*/
+h1,h2{
+    font-family:Old standard TT,sans-serif;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    color:#610579fd;
+}
+#logo{
+    float:left;
+    font-size:280%;
 }
