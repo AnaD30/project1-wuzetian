@@ -7,16 +7,39 @@
 body{
     font-family:Metrophobic,sans-serif;
     font-weight:300;
-    color:#350242d4;
+    color:#550668e8;
 }
 /*heading and logo*/
 h1,h2{
     font-family:Old standard TT,sans-serif;
     text-transform:uppercase;
-    letter-spacing:4px;
+    letter-spacing:2px;
     color:#610579fd;
 }
 #logo{
     float:left;
     font-size:280%;
+}
+/*navigation links*/
+#menu{
+    font-size:110%;
+    letter-spacing:2px;
+}
+#menu, #logo{
+    line-height:70px;
+}
+#menu li{
+    float:right;
+    list-style-type:none;
+    margin-right:20px;
+}
+#menu a{
+    text-decoration:none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom:1px solid #550668e8;
+}
+.active{
+    border-bottom:1px solid #550668e8;
 }
