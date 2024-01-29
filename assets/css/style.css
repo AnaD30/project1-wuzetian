@@ -101,16 +101,26 @@ color:#ffff;
         padding-top:30px;
         width:33%;
         float:left;
-        color:blue;
      }
      #right-about{
         padding-top:30px;
         width:33%;
         float:right;
-        color:silver;
      }
      #center-about{
         width:33%;
         margin:0 auto;
         color:green;
+     }
+     hr{
+        border-top:solid 1px,#141313;
+        width: 100%;
+        margin:5px 0;
+     }
+     .left-about-heading{
+        width:60%;
+        float:right;
+        line-height:20px;
+        clear:both;
+        margin-bottom:40px;
      }
