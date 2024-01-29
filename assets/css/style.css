@@ -19,6 +19,7 @@ h1,h2{
 #logo{
     float:left;
     font-size:280%;
+    margin-left:30px;
 }
 /*navigation links*/
 #menu{
@@ -91,4 +92,25 @@ color:#ffff;
         right:150px;
 
         position:absolute;
+     }
+     /*life of wu zetian(video,facts)*/
+     #presentation-of-life{
+        height:600px;
+     }
+     #left-about{
+        padding-top:30px;
+        width:33%;
+        float:left;
+        color:blue;
+     }
+     #right-about{
+        padding-top:30px;
+        width:33%;
+        float:right;
+        color:silver;
+     }
+     #center-about{
+        width:33%;
+        margin:0 auto;
+        color:green;
      }
