@@ -43,3 +43,9 @@ h1,h2{
 .active{
     border-bottom:1px solid #550668e8;
 }
+/*Hero image*/
+#hero-image{
+    height:600px;
+    width:100%;
+    background-image:url('assets/images/hero-image.jpg')no-repeat center center;
+}
