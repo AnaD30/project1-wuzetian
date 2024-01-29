@@ -7,14 +7,14 @@
 body{
     font-family:Metrophobic,sans-serif;
     font-weight:300;
-    color:#550668e8;
+    color:#721e18;
 }
 /*heading and logo*/
 h1,h2{
-    font-family:Old standard TT,sans-serif;
+    font-family:Old-standard-TT,sans-serif;
     text-transform:uppercase;
     letter-spacing:2px;
-    color:#610579fd;
+    color:#9b0b00;
 }
 #logo{
     float:left;
@@ -38,16 +38,21 @@ h1,h2{
     color:inherit;
 }
 #menu a:hover{
-    border-bottom:1px solid #550668e8;
+    border-bottom:1px solid #9b0b00;
 }
 .active{
-    border-bottom:1px solid #550668e8;
+    border-bottom:1px solid #990000e3;
 }
 /*Hero image*/
 #hero-outer{
     height:600px;
     width:100%;
-    overflow:hidden;    
+    overflow:hidden; 
+    
+    position:relative;
+}
+#cover-text, #cover-text h2{
+color:#ffff;
 }
 #hero-image>img{
     height:600px;
@@ -68,3 +73,22 @@ h1,h2{
         transform:scale(1.1);
     }
     }
+    #cover-text{
+        font-size:130%;
+        font-family:Metrophobic,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        width:400px;
+        height:200px;
+
+        padding-top:40px;
+        padding-left:30px;   
+
+        background-color:rgba(115, 6, 6, 0.605) ;
+
+        bottom:30px;
+        right:150px;
+
+        position:absolute;
+     }
