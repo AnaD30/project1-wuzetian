@@ -44,8 +44,27 @@ h1,h2{
     border-bottom:1px solid #550668e8;
 }
 /*Hero image*/
-#hero-image{
+#hero-outer{
+    height:600px;
+    width:100%;
+    overflow:hidden;    
+}
+#hero-image>img{
     height:600px;
     width:100%;
     background-image:url('assets/images/hero-image.jpg')no-repeat center center;
-}
+    /*animates zoom efect on a loading page*/
+    animation-name:hero-zoom;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
+}   
+      
+/*create the level of zoom for hero image*/
+@keyframe hero-zoom{
+    from{
+        transform:scale(1);
+        }
+    to{
+        transform:scale(1.1);
+    }
+    }
