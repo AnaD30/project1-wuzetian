@@ -46,7 +46,7 @@ h1,h2{
 }
 /*Hero image*/
 #hero-outer{
-    height:600px;
+    height:500px;
     width:100%;
     overflow:hidden; 
     
@@ -55,7 +55,7 @@ h1,h2{
 #cover-text, #cover-text h2{
 color:#ffff;
 }
-#hero-image>img{
+#hero-image{
     height:600px;
     width:100%;
     background-image:url('assets/images/hero-image.jpg')no-repeat center center;
@@ -110,30 +110,50 @@ color:#ffff;
      #center-about{
         width:33%;
         margin:0 auto;
-        color:green;
      }
      hr{
         border-top:solid 2px #3a3a3a;
         width: 100%;
-        margin:5px 0;
+        margin:6px 0;
      }
      .left-about-heading{
-        width:50%;
+        width:40%;
         float:right;
         line-height:20px;
         clear:both;
-        margin-bottom:40px;
+        margin-bottom:30px;
      }
      .right-about-heading{
-        width:50%;
+        width:40%;
         float:left;
         line-height:20px;
         clear:both;
-        margin-bottom:40px;
+        margin-bottom:300px;
      }
      .right-about-heading h2{
         text-align:right;
      }
      .right-about-heading p{
         text-align:right;
+     }
+    
+     #welcome{
+        text-align:center;
+        margin:20px;
+        font-size:260%;
+     }
+     #circle-container{
+        width:300px;
+        height:300px;
+        padding:30px;
+        border-style: solid;
+        border-color:#cccc;
+        border-width:1px;
+        border-radius:50%;
+        margin:0 auto;
+     }
+     #circle-cover-bg{
+        bacground:url('assets/video/videoplayback.mp4') no-repeat center center;
+        height:100%;
+        border-radius:50%;
      }
