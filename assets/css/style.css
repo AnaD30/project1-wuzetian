@@ -14,7 +14,7 @@ h1,h2{
     font-family:Old-standard-TT,sans-serif;
     text-transform:uppercase;
     letter-spacing:2px;
-    color:#9b0b00;
+    color:#9b0a00d2;
 }
 #logo{
     float:left;
@@ -39,7 +39,7 @@ h1,h2{
     color:inherit;
 }
 #menu a:hover{
-    border-bottom:1px solid #9b0b00;
+    border-bottom:1px solid #9b0a00d0;
 }
 .active{
     border-bottom:1px solid #990000e3;
@@ -174,17 +174,10 @@ color:#ffff;
     width:100%;
     overflow:hidden;
 }
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    overflow: hidden;
-  }
-#achievements div {
+.overlay-text {
     color:#fafafa;
-    background-color:rgb(0, 0, 0, .6);
-    width:30%;
+    background-color:rgb(231,231,231, .6);
+    width: 20%;
     height:300px;
     float: left;
     padding:30px 0 0 10px;
