@@ -14,7 +14,7 @@ h1,h2{
     font-family:Old-standard-TT,sans-serif;
     text-transform:uppercase;
     letter-spacing:2px;
-    color:#9b0a00d2;
+    color:#8f0e05d2;
 }
 #logo{
     float:left;
@@ -66,7 +66,7 @@ color:#ffff;
 }   
       
 /*create the level of zoom for hero image*/
-@keyframe hero-zoom{
+@keyframe hero-zoom, #hero-image{
     from{
         transform:scale(1);
         }
@@ -167,7 +167,7 @@ color:#ffff;
       }
    /*achievements*/
    #achievements {
-    background-image:url('assets/images/achievements1.jpg');
+    background-image:url('assets/images/achievements1.jpg .jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -176,7 +176,7 @@ color:#ffff;
 }
 .overlay-text {
     color:#fafafa;
-    background-color:rgb(231,231,231, .6);
+    background-color:rgba(207, 207, 207, 0.995);
     width: 20%;
     height:300px;
     float: left;
@@ -184,4 +184,20 @@ color:#ffff;
     text-align: center;
     border:2px solid white;
     box-sizing: border-box;
+}
+/*footer*/
+footer{
+    height:150px;
+}
+.social-networks{
+    text-align:center;
+}
+.social-networks >li{
+    display: inline;
+}
+.social-networks  i{
+    font-size:160%;
+    margin:1%;
+    padding:5%;
+    color:#615e5ec1;
 }
