@@ -166,7 +166,7 @@ color:#ffff;
         object-fit:cover;
       }
    /*achievements*/
-   #achievements {
+   #achievements > img{
     background-image:url('assets/images/achievements1.jpg .jpg');
     background-repeat:no-repeat;
     background-size:cover;
@@ -207,4 +207,35 @@ clear:both;
 line-height: 0%;
 column-count:2;
 column-gap: 0;
+}
+#photos > img{
+    width:100%;
+}
+
+/*media query*/
+/*for larger to medium screen sizes from 1200px wide and down*/
+@media screen and (max-width:1200px) {
+    #Presentation-of-life{
+        width:65%;
+        height:1200px;
+        margin:0 auto;
+    }
+    #welcome{
+        padding:30px 0;
+        margin:0;
+    }
+    #left-about, #right-about{
+        width: 100%;
+        float:left;
+        padding:0;
+    }
+    #center-about{
+        clear:both;
+        width:100%;
+        float:left;
+        padding:0;
+    }
+    hr{
+        display: none;
+    }
 }
