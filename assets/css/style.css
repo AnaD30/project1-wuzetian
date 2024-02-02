@@ -206,7 +206,7 @@ footer{
 #photos{
 clear:both;
 line-height: 0%;
-column-count:2;
+column-count:4;
 column-gap: 0;
 }
 #photos > img{
@@ -274,4 +274,15 @@ column-gap: 0;
     text-align: center;
     padding: 0 20px;
 }
+#legacy{
+    column-count: 3;
+
+}
+}
+/*for small screen sizes 800px and down*/
+@media screen and (max-width:800px) {
+    #legacy{
+        column-count: 2;
+    
+    }
 }
