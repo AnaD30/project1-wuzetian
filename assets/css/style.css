@@ -17,12 +17,12 @@ h1, h2, h3 {
     font-family: Metrophobic, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #9b0b0bdd;
+    color: #9d0000;
 }
 body{
     font-family:Metrophobic,sans-serif;
     font-weight:300;
-    color:#9b0b0bdd;
+    color:#d62323dd;
 }
 /* General styles */
 body {
@@ -60,6 +60,7 @@ nav {
     font-size: 2rem;
 }
 
+
 /*heading and logo*/
 header{
     background-color: #ffffff;
@@ -67,7 +68,7 @@ header{
     position:fixed;
     z-index:99;
     width:100%;
-    box-shadow:0 2px 2px #3a3a3a;
+    box-shadow:0 2px 2px #757171;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -81,7 +82,7 @@ h1,h2{
     font-family:Old-standard-TT,sans-serif;
     text-transform:uppercase;
     letter-spacing:2px;
-    color:#8b0000c5;
+    color:#c21d1dde;
 }
 
 #logo{
@@ -91,7 +92,7 @@ h1,h2{
 }
 /*navigation links*/
 #menu{
-    font-size:110%;
+    font: size 110%;
     letter-spacing:2px;
 }
 #menu, #logo{
@@ -111,7 +112,7 @@ h1,h2{
     border-bottom:1px solid ;
 }
 .active{
-    border-bottom:1px solid #d20909f6;
+    border-bottom:1px solid #a70606f6;
 }
 
 /*Hero image*/
@@ -144,7 +145,7 @@ color:#ffff;
         padding-top:40px;
         padding-left:30px;   
 
-        background-color:rgb(142, 16, 16) ;
+        background-color:rgb(150, 33, 33) ;
 
         bottom:30px;
         right:150px;
@@ -205,7 +206,7 @@ color:#ffff;
         height:300px;
         padding:30px;
         border-style: solid;
-        border-color:#3a3a3a;
+        border-color:#635c5c;
         border-width:1px;
         border-radius:50%;
         margin:0 auto;
@@ -225,7 +226,7 @@ color:#ffff;
       }
    /*achievements*/
     #achievements > img{
-    background-image:url('assets/images/achievements1.jpg .jpg');
+    background-image:url('../images/achievements1.jpg .jpg');
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -234,7 +235,7 @@ color:#ffff;
 }
 .overlay-text {
     color:#fafafa;
-    background-color:rgba(129, 129, 129, 0.995);
+    background-color:rgba(169, 169, 169, 0.995);
     width: 20%;
     height:300px;
     float: left;
@@ -350,10 +351,15 @@ column-gap: 0;
 
 
 /* Form */
-* {
-    box-sizing: border-box;
-  }
-  
+
+#signup-form {
+    max-width: 400px;
+    position: absolute;
+    color: #ffffff;
+    background-color: rgba(37, 36, 36, 0.799)
+    padding: 30px;
+}
+
 #signup {
     background-image: url("../images/forbidden_city_overview_2md.jpg");
     background-size:cover;
@@ -362,20 +368,9 @@ column-gap: 0;
     flex-grow: 1;
     margin-top:200px;
 }
-picture {
+div > #forbidden-city{
     opacity: 0.5;
-    width: auto;
 }
-
-#signup-form {
-    max-width: 400px;
-    position: absolute;
-    color: #ffffff;
-    background-color: rgba(37, 36, 36, 0.799)
-    padding:30px;
-}
-
-
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
@@ -406,7 +401,7 @@ picture {
     background-color: #454b1b;
     color: #fafafa;
 }
-#height{height:600px;}
+
 
 /* Media query: tablets and larger (800px and down) */
 @media screen and (min-width: 800px) {
@@ -423,7 +418,7 @@ picture {
         left: 10%;
         top: 200px;
     }
-    picture{
+    .forbidden-city{
         opacity: 0.5;
        width: auto;
       
@@ -454,7 +449,7 @@ picture {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #9e9898;
 }
 
 /* Media query: large or landscape phones (800px and up) */
