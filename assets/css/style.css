@@ -4,11 +4,62 @@
     padding:0;
     border:none;
 }
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hidden-heading {
+    display: none;
+}
+h1, h2, h3 {
+    font-family: Metrophobic, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #9b0b0bdd;
+}
 body{
     font-family:Metrophobic,sans-serif;
     font-weight:300;
     color:#9b0b0bdd;
 }
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Old standard TT', sans-serif;
+}
+
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*heading and logo*/
 header{
     background-color: #ffffff;
@@ -311,12 +362,14 @@ column-gap: 0;
     flex-grow: 1;
     margin-top:200px;
 }
-.bg-photo{
+picture {
     opacity: 0.5;
-    background-position: 100%;
+    width: auto;
 }
 
 #signup-form {
+    max-width: 400px;
+    position: absolute;
     color: #ffffff;
     background-color: rgba(37, 36, 36, 0.799)
     padding:30px;
@@ -370,9 +423,9 @@ column-gap: 0;
         left: 10%;
         top: 200px;
     }
-    .bg-photo{
+    picture{
         opacity: 0.5;
-        background-position: 100%;
+       width: auto;
       
     }
     #signup-form>h2 {
@@ -409,5 +462,47 @@ column-gap: 0;
     #photos {
         column-count: 2;
         column-gap: 0;
+    }
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #d20909f6;
     }
 }

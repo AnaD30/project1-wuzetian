@@ -18,6 +18,10 @@
     <header id="height">
       <a href="index.html"></a>
       <h1 id="logo">The life of Wu Zetian</h1>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+          <i class="fa-solid fa-bars"></i>
+      </label>
       <nav>
         <ul id="menu">
           <li >
@@ -26,14 +30,17 @@
           <li>
           <a href="early-life-and-rise-to-power.html" class="active">Early life and rise to Power</a>
         </li>
-          <li>
+        <li>
           <a href="index.html" class="active">Home</a>
-        </li>  
+        </li>
         </ul>
       </nav>
     </header>
     <section id="signup">
-      <img src="assets/images/forbidden_city_overview_1.jpg" alt="forbidden_city_overview_1" class="bg-photo">
+      <picture>
+        <source media="(min-width:600px)" srcset="assets/images/forbidden_city_overview_1.jpg">
+        <img src="../images/forbidden_city_overview_1.jpg" alt="forbidden_city" >
+      </picture>
         <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
             <h2><i class="fa-brands fa-redhat"></i> Let's get you signed up to the newsletter!</h2>
             <label for="first_name">First Name</label>
