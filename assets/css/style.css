@@ -67,8 +67,6 @@ header a{
     color:inherit;
 }
 
-
-
 #logo{
     float:left;
     font-size:170%;
@@ -130,8 +128,8 @@ color:#ffff;
 
         background-color:rgb(150, 33, 33) ;
 
-        bottom:30px;
-        right:150px;
+        bottom:40px;
+        right:100px;
 
         position:absolute;
      }
@@ -228,6 +226,79 @@ h3{
     border:2px solid white;
     box-sizing: border-box;
 }
+
+/* Form */
+
+.form-section {
+    clear:left;
+    background: url("assets/images/forbidden_city_overview_sm.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    opacity:0.5;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgb(106, 97, 97);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #6c1010;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #6c1010;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #6c1010;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+
 /*footer*/
 footer{
     height:150px;
@@ -254,6 +325,8 @@ column-gap: 0;
 #photos > img{
     width:100%;
 }
+
+
 
 /*media query*/
 /*for larger to medium screen sizes from 1200px wide and down*/
@@ -287,6 +360,7 @@ column-gap: 0;
     hr{
         display: none;
     }
+ 
 }
 /*for medium screen sizes from 950px wide and down*/
 @media screen and (max-width:950px) {
@@ -334,57 +408,6 @@ column-gap: 0;
 }
 
 
-/* Form */
-
-#signup-form {
-    max-width: 400px;
-    position: absolute;
-    color: #ffffff;
-    background-color: rgba(37, 36, 36, 0.799)
-    padding: 30px;
-}
-
-#signup {
-    background-image: url("../images/forbidden_city_overview_2md.jpg");
-    background-size:cover;
-    background-position: 100%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-    margin-top:200px;
-}
-div > #forbidden-city{
-    opacity: 0.5;
-}
-#signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-}
-
-
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
-}
 
 
 /* Media query: tablets and larger (800px and down) */
