@@ -228,7 +228,6 @@ h3{
 }
 
 /* Form */
-
 .form-section {
     clear:left;
     background: url("assets/images/forbidden_city_overview_sm.jpg");
@@ -238,7 +237,14 @@ h3{
     width:100%;
     opacity:0.5;
 }
-
+#signup-container{
+    background-color: transparent;
+    height: 100px;
+    width:100px;
+    padding:20px;
+    margin: 59px;
+    max-width: 572px;;
+}
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -297,7 +303,18 @@ h3{
     background-color: #454b1b;
     color: #fafafa;
 }
-
+.bg-img {
+    /* The image used */
+    background-image: url("assets/images/forbidden_city_overview_2md.jpg");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
 /*footer*/
 footer{
@@ -326,6 +343,31 @@ column-gap: 0;
     width:100%;
 }
 
+/*media query*/
+/*for larger to medium screen sizes from 1200px wide and down*/
+@media screen and (max-width:1200px) {}
+
+/*media query*/
+/*for larger to medium screen sizes from 850px wide and down*/
+@media screen and (max-width:850px) {
+    #sign-up {
+     background-position:center;
+     position: relative;
+     opacity:0.5;
+    }
+    .bg-img {
+        /* The image used */
+        background-image: url("assets/images/forbidden_city_overview_2md.jpg");
+      
+        min-height: 850px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+      }
+}
 
 
 /*media query*/
@@ -409,6 +451,10 @@ column-gap: 0;
 
 
 
+/* Media query: large or landscape phones (850px and up) */
+@media screen and (min-width: 850px) {
+}
+
 
 /* Media query: tablets and larger (800px and down) */
 @media screen and (min-width: 800px) {
@@ -458,6 +504,8 @@ column-gap: 0;
     padding: 5%;
     color: #9e9898;
 }
+
+
 
 /* Media query: large or landscape phones (800px and up) */
 @media screen and (min-width: 800px) {

@@ -2,6 +2,7 @@
 
 
 # The first female emperor of China -Wu Zetian 
+<img src="assets/docs:README.md-images/mockup2.png" alt="mockup-picture">
 
 Wu Zetian is a static website about the life and reign of Wu Zetian, the only female emperor in the history of China. This website shows and demonstrate ´the life of Wu Zetian, her life and achievements.
 
