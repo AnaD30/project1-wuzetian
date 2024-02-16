@@ -4,7 +4,7 @@
 # The first female emperor of China -Wu Zetian 
 ![mockup-picture](/assets/docs:README.md-images/mockup2.png)
 
-Wu Zetian is a static website about the life and reign of Wu Zetian, the only female emperor in the history of China. This website shows and demonstrate ´the life of Wu Zetian, her life and achievements.
+Wu Zetian is a static website about the life and reign of Wu Zetian, the only female emperor in the history of China. This website shows and demonstrate ´the life of Wu Zetian, achievements and legacy left behind.
 
 ## Table of Contents
 
@@ -21,37 +21,38 @@ On this website there are some features. That will guide the visitor through the
 * A gallery of images related to her life and reign
 <br>
 + At the bottom  of the page is short video-link that shows the life story of Wu Zetian.
-[Wu Zetian(https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)]
+<br>
+[Link to a video about-Wu Zetian](https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)
 
 ## Existing Features:
 
-![nav-bar](/assets/docs:README.md-images/navbar.png)
+![Nav-bar](/assets/docs:README.md-images/navbar.png)
 
 ### Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Home, legacy page, and Sign Up page(early life and rise to power) and is identical in each page to allow for easy navigation.
+Featured on all three pages, the full responsive navigation bar includes links to the Home, legacy page, and Sign Up page also referred to Rise to power and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ## The landing page image
 
 ![landing-page](/assets/docs:README.md-images/mainpage2.png)
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+The landing page includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 This section introduces the user to Love Running with an eye catching animation to grab their attention.
 
 ## Presentation of Life Section:
 
-The achievements section we are going thru the life or better said life achievments of Wu Zetian.
+The achievements section we are going through the life achievments of Wu Zetian.
 
 ![presentation-of-life](/assets/docs:README.md-images/section2.png)
 
-- Firstly the life before the royal cort, just life withe the family.
+- Firstly the life before the royal court, the life with the her family.
 
 *  Secondly we start by the ascending of the throne or crown.
 
  + Thirdly are the reforms that happened in the time of her reign.
 
-+ And the last the legacy she left beheind to look and admire till today.
++ And lastly the legacy she left behind that we can admire today.
 
 ## Achievements section:
 
@@ -80,25 +81,26 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 The webcite was tested though the offical validators for HTML  and CSS. We wanted to make sure that the site is working properly to the future visitor to our site.
 
-There are features like _media query _ that makes it possible that the website is on display and intact no matter the screen size. 
-
-## Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+There are features like media query  that makes it possible that the website is on display and intact no matter the screen size. 
 
 ### Validator Testing
 
 #### HTML
 No errors were returned when passing through the official W3C validator
 
-[https://validator.w3.org/](W3C validator)
+[W3C validator](https://validator.w3.org/)
 
 #### CSS
 
 No errors were found when passing through the official validator.
 
- [https://jigsaw.w3.org/css-validator/](Jigsaw)
+ [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
+* Accessibility 
+I check the accessibility of the page through the lighthouse tool.
+![lighthouse-tool-photo](assets/docs:README.md-images/lighthouse2.png)
 
+## Solved Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 # Credits
@@ -112,8 +114,18 @@ The icons in the footer were taken from _Font Awesome_.
 
 # Media
 
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
+The photos used on the home and sign up page are from:
+* [Sixth tone](https://www.sixthtone.com/news/1011104)
+* [The beijinger:blog-site](https://www.thebeijinger.com/blog/2018/01/08/whats-name-why-it-called-forbidden-city)
+
+The images used for the gallery page were taken from this other open source site:
++ [Sixth tone](https://www.sixthtone.com/news/1011562)
++ [Association  for Asian Studies](https://www.asianstudies.org/publications/eaa/archives/wu-zhao-ruler-of-tang-dynasty-china/)
++ [Shine:beyond a single story](https://www.shine.cn/feature/art-culture/2106060138/)
++ [Quora](https://www.quora.com/How-did-Wu-Zetian-become-an-emperor)
++ [Love Science](https://www.livescience.com/52659-tomb-tells-tale-of-family-executed-by-china-s-1st-female-emperor.html)
++ [Shanghai daily](https://archive.shine.cn/sunday/Wu-Zetians-legacy-is-a-mystery/shdaily.shtml)
++ [China daily](https://www.chinadaily.com.cn/china/2007-01/26/content_794104.htm)
 
 # Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -130,4 +142,3 @@ The live link can be found here : https://anad30.github.io/project1-wuzetian/
 
 
 
-[def]: "../docs:README.md-images/section2.png"
