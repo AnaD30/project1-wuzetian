@@ -47,6 +47,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     margin-top: 1rem;
+    margin-right:2rem;
 }
 
 
@@ -304,14 +305,8 @@ h3{
     color: #fafafa;
 }
 .bg-img {
-    /* The image used */
-    background-image: url("assets/images/forbidden_city_overview_2md.jpg");
-  
+    background-image: url("assets/images/forbidden_city_overview_2md.jpg")no-repeat center center;
     min-height: 380px;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -343,29 +338,91 @@ column-gap: 0;
     width:100%;
 }
 
-/*media query*/
-/*for larger to medium screen sizes from 1200px wide and down*/
-@media screen and (max-width:1200px) {}
+
 
 /*media query*/
 /*for larger to medium screen sizes from 850px wide and down*/
 @media screen and (max-width:850px) {
-    #sign-up {
-     background-position:center;
-     position: relative;
-     opacity:0.5;
+    .form-section {
+        clear:left;
+        background: url("assets/images/forbidden_city_overview_sm.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width:100%;
+        opacity:0.5;
+    }
+    #signup-container{
+        background-color: transparent;
+        height: 100px;
+        width:100px;
+        padding:20px;
+        margin: 59px;
+        max-width: 572px;;
+    }
+    .signup-form {
+        margin: 150px 10% 0 0;
+        color: #fff;
+        background-color: rgb(106, 97, 97);
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        padding: 30px;
+    }
+    
+    .signup-form > h2 {
+        
+        margin-bottom: 20px;
+    }
+    
+    .text-input {
+        background: transparent;
+        color: #ffffff;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
+    
+    .text-input:hover {
+        border-color: #6c1010;
+    }
+    
+    .join-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #6c1010;
+        color: #fafafa;
+        display: block;
+    }
+    
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #6c1010;
+    }
+    
+    .radio-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .join-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px;
+        font-size: 100%;
+        background-color: #454b1b;
+        color: #fafafa;
     }
     .bg-img {
-        /* The image used */
-        background-image: url("assets/images/forbidden_city_overview_2md.jpg");
-      
-        min-height: 850px;
-      
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("assets/images/forbidden_city_overview_2md.jpg")no-repeat center center;
+        min-height: 380px;
         background-size: cover;
-        position: fixed;
+        position: relative;
       }
 }
 
@@ -452,12 +509,41 @@ column-gap: 0;
 
 
 /* Media query: large or landscape phones (850px and up) */
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 850px){
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    * {
+        box-sizing: border-box;
+      }
+    #signup-form {
+        max-width: 500px;
+        position: absolute;
+        left: 10%;
+        top: 200px;
+    }
+    .forbidden-city{
+        opacity: 0.5;
+       width: auto;
+      
+    }
+    #signup-form>h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+    }
+    .text-input:hover {
+        border-color: #bb0e0e;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        colo
+}
 }
 
-
 /* Media query: tablets and larger (800px and down) */
-@media screen and (min-width: 800px) {
+@media screen and (min-width:800px) {
     #signup {
         background-position: center;
         position: relative;
@@ -555,4 +641,26 @@ column-gap: 0;
     #menu a:hover{
         border-bottom: 1px solid #d20909f6;
     }
+    .nav-toggle-label {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+    #circle-container {
+        width: 200px;
+    }
+    h2{
+        font-size: 110%;
+    }
+}
+/*for larger to medium screen sizes from 1200px wide and down*/
+@media screen and (max-width:1200px) {
+    .nav-toggle-label {
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+   header {
+        align-items: baseline;
+}
 }
