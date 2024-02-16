@@ -77,6 +77,18 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ![footer-part-photo](/assets/docs:README.md-images/footer.png)
 
+# Legacy
+
+The legacy par of the site will provide the user with supporting images to see some of the achievements and legacy left behind by Wu Zetian.
+This section is valuable to the user it shows what was made possible at that period and how much has been preserved.
+
+![legacy](/assets/docs:README.md-images/legacy1.png)
+
+# The Sign Up Page to  a Newsletter
+
+This page will allow the user to get signed up to Wu Zetian newsletter to start their journey through history of  teh Tang Dynasty.The user will be asked to submit their full name and email address.
+
+
 ## Testing
 
 The webcite was tested though the offical validators for HTML  and CSS. We wanted to make sure that the site is working properly to the future visitor to our site.
@@ -98,6 +110,7 @@ No errors were found when passing through the official validator.
 
 * Accessibility 
 I check the accessibility of the page through the lighthouse tool.
+
 ![lighthouse-tool-photo](assets/docs:README.md-images/lighthouse2.png)
 
 ## Solved Bugs
