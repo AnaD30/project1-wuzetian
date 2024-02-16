@@ -120,13 +120,11 @@ header a {
 #cover-text h3 {
   color: #ffff;
 }
-#hero-image img {
-  opacity: 1;
-}
+
 #hero-image {
   height: 600px;
   width: 100%;
-  background-image: url("assets/images/hero-image.jpg") no-repeat center center;
+  background:url("../images/hero-image.jpg") no-repeat center center;
 }
 
 #cover-text {
@@ -222,7 +220,7 @@ hr {
 }
 /*achievements*/
 #achievements > img {
-  background-image: url("../images/achievements1.jpg .jpg");
+  background: url("../images/achievements1.jpg .jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -337,8 +335,8 @@ footer {
 }
 
 /*media query*/
-/*for larger to small screen sizes from 360px wide and down*/
-@media screen and (max-width: 360px) {
+/*for larger to small screen sizes from 460px wide and down*/
+@media screen and (max-width: 460px) {
   #menu,
   #logo {
     line-height: 30px;
@@ -349,7 +347,7 @@ footer {
   }
   #cover-text {
     font-size: 110%;
-    width: 300px;
+    width: 260px;
     padding-top: 20px;
   }
 }
