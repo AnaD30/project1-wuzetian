@@ -246,8 +246,17 @@ h3{
     width:100px;
     padding:20px;
     margin: 59px;
-    max-width: 572px;;
+    max-width: 572px;
 }
+.bg-img {
+    background-image: url("assets/images/forbidden_city_overview_2md.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.5;
+  }
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -306,12 +315,7 @@ h3{
     background-color: #454b1b;
     color: #fafafa;
 }
-.bg-img {
-    background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
-    min-height:600px;
-    background-size: cover;
-    position: relative;
-  }
+
 
 /*footer*/
 footer{
@@ -519,11 +523,7 @@ column-gap: 0;
         left: 10%;
         top: 200px;
     }
-    .forbidden-city{
-        opacity: 0.5;
-       width: auto;
-      
-    }
+
     #signup-form>h2 {
         color: #fafafa;
         margin-bottom: 20px;
@@ -543,7 +543,7 @@ column-gap: 0;
 }
 .bg-img {
     background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
-    min-height:600px;
+    min-height:800px;
     background-size: cover;
     position: relative;
   }

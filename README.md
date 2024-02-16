@@ -87,7 +87,7 @@ This section is valuable to the user it shows what was made possible at that per
 # The Sign Up Page to  a Newsletter
 
 This page will allow the user to get signed up to Wu Zetian newsletter to start their journey through history of  teh Tang Dynasty.The user will be asked to submit their full name and email address.
-
+![sign up](/)
 
 ## Testing
 
