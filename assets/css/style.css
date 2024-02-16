@@ -1,263 +1,398 @@
-@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Old+Standard+TT&display=swap');
-*{
-    margin:0;
-    padding:0;
-    border:none;
+@import url("https://fonts.googleapis.com/css2?family=Metrophobic&family=Old+Standard+TT&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-h1, h2,h3  {
-    font-family: 'Old standard TT', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #ac1010;
+h1,
+h2,
+h3 {
+  font-family: "Old standard TT", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ac1010;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Old standard TT', sans-serif;
-    justify-content: space-between;
-    align-items: stretch
+  color: #3a3a3a;
+  font-family: "Old standard TT", sans-serif;
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #5c5c5c;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #5c5c5c;
+  display: none;
+  top: 100%;
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-right:2rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
 }
-
 
 /*heading and logo*/
-header{
-    background-color:#ffffff;
-    padding:0 1rem;
-    position:fixed;
-    z-index:99;
-    width:100%;
-    box-shadow:0 2px 2px #757171;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  max-width: 1920px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 2px #757171;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-header a{
-    text-decoration:none;
-    color:inherit;
+header a {
+  text-decoration: none;
+  color: inherit;
 }
 
-#logo{
-    float:left;
-    font-size:110%;
-    margin-left:35px;
+#logo {
+  float: left;
+  font-size: 110%;
+  margin-left: 35px;
 }
 /*navigation links*/
-#menu{
-    font-size: 110%;
-    letter-spacing:2px;
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
 }
-#menu, #logo{
-    line-height:20px;
+#menu,
+#logo {
+  line-height: 20px;
 }
-#menu li{
-    float:right;
-    list-style-type:none;
-    margin-right:20px;
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
 }
-#menu a{
-    text-decoration:none;
-    color:inherit;
+#menu a {
+  text-decoration: none;
+  color: inherit;
 }
-#menu a:hover{
-    border-bottom:1px solid #9b0a00;
+#menu a:hover {
+  border-bottom: 1px solid #9b0a00;
 }
-.active{
-    border-bottom:1px solid #a70606f6;
+.active {
+  border-bottom: 1px solid #a70606f6;
 }
 
 /*Hero image*/
-#hero-outer{
-    height:500px;
-    width:100%;
-    overflow:hidden; 
-    margin-top:70px;
-    position:relative;
+#hero-outer {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 70px;
+  position: relative;
 }
-#cover-text, #cover-text h2, #cover-text h3{
-color:#ffff;
+#cover-text,
+#cover-text h2,
+#cover-text h3 {
+  color: #ffff;
 }
-#hero-image img{opacity:1;}
-#hero-image{
-    height:600px;
-    width:100%;
-    background-image:url('assets/images/hero-image.jpg') no-repeat center center;
-}   
-      
-    #cover-text{
-        font-size:130%;
-        font-family:Metrophobic,sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-
-        width:400px;
-        height:200px;
-
-        padding-top:40px;
-        padding-left:30px;   
-
-        background-color:rgb(150, 33, 33) ;
-
-        bottom:40px;
-        right:100px;
-
-        position:absolute;
-     }
-     /*life of wu zetian*/
-     #presentation-of-life{
-        height:600px;
-     }
-     #left-about{
-        padding-top:30px;
-        width:33%;
-        float:left;
-     }
-     #right-about{
-        padding-top:30px;
-        width:33%;
-        float:right;
-     }
-     #center-about{
-        width:33%;
-        margin:0 auto;
-     }
-     hr{
-        border-top:solid 2px #3a3a33;
-        width: 100%;
-        margin:6px 0;
-     }
-     .left-about-heading{
-        width:40%;
-        float:right;
-        line-height:20px;
-        clear:both;
-        margin-bottom:30px;
-     }
-     .right-about-heading{
-        width:40%;
-        float:left;
-        line-height:20px;
-        clear:both;
-        margin-bottom:30px;
-     }
-     .right-about-heading h2{
-        text-align:right;
-     }
-     .right-about-heading p{
-        text-align:right;
-     }
-    
-     #welcome{
-        text-align:center;
-        margin:20px;
-        font-size:260%;
-     }
-     #circle-container{
-        width:300px;
-        height:300px;
-        padding:30px;
-        border-style: solid;
-        border-color:#8d8787;
-        border-width:1px;
-        border-radius:50%;
-        margin:0 auto;
-     }
-     #circle-cover-bg{
-        background:url('assets/images/court-life.jpg') no-repeat center center;
-        height:100%;
-        border-radius:50%;
-        margin:0 auto;   
-     }
-
-     .circle-image img {
-        width: 100%;
-        height: 100%;
-        border-radius:50%;
-        object-fit:cover;
-      }
-   /*achievements*/
-    #achievements > img{
-    background-image:url('../images/achievements1.jpg .jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    width:100%;
-    overflow:hidden;
+#hero-image img {
+  opacity: 1;
 }
-h3{
-    color:#ffffff}
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background-image: url("assets/images/hero-image.jpg") no-repeat center center;
+}
+
+#cover-text {
+  font-size: 130%;
+  font-family: Metrophobic, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  width: 400px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 30px;
+
+  background-color: rgb(150, 33, 33);
+
+  bottom: 40px;
+  right: 100px;
+
+  position: absolute;
+}
+/*life of wu zetian*/
+#presentation-of-life {
+  height: 600px;
+}
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
+#center-about {
+  width: 33%;
+  margin: 0 auto;
+}
+hr {
+  border-top: solid 2px #3a3a33;
+  width: 100%;
+  margin: 6px 0;
+}
+.left-about-heading {
+  width: 40%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 30px;
+}
+.right-about-heading {
+  width: 40%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 30px;
+}
+.right-about-heading h2 {
+  text-align: right;
+}
+.right-about-heading p {
+  text-align: right;
+}
+
+#welcome {
+  text-align: center;
+  margin: 20px;
+  font-size: 260%;
+}
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #8d8787;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#circle-cover-bg {
+  background: url("assets/images/court-life.jpg") no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/*achievements*/
+#achievements > img {
+  background-image: url("../images/achievements1.jpg .jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+h3 {
+  color: #ffffff;
+}
 .overlay-text {
-    background-color:rgba(193, 193, 193, 0.829);
-    width: 20%;
-    height:300px;
-    float: left;
-    padding:30px 0 0 10px;
-    text-align: center;
-    border:2px solid white;
-    box-sizing: border-box;
+  background-color: rgba(193, 193, 193, 0.829);
+  width: 20%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
 }
 
 /* Form */
 .form-section {
-    clear:left;
+  clear: left;
+  background: url("assets/images/forbidden_city_overview_sm.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+#signup-container {
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin: 59px;
+  max-width: 572px;
+}
+.bg-img {
+  background-image: url("assets/images/forbidden_city_overview_2md.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.5;
+}
+.signup-form {
+  margin: 150px 10% 0 0;
+  color: #fff;
+  background-color: rgb(106, 97, 97);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
+.signup-form > h2 {
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #ffffff;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #6c1010;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #6c1010;
+  color: #fafafa;
+  display: block;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #6c1010;
+}
+
+.radio-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: #454b1b;
+  color: #fafafa;
+}
+
+/*footer*/
+footer {
+  height: 150px;
+}
+.social-networks {
+  text-align: center;
+}
+.social-networks > li {
+  display: inline;
+}
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #615e5e;
+}
+/*Legacy(photos)*/
+#photos {
+  clear: both;
+  line-height: 0%;
+  column-count: 4;
+  column-gap: 0;
+}
+#photos > img {
+  width: 100%;
+}
+/*media query*/
+/*for larger to small screen sizes from 360px wide and down*/
+@media screen and (max-width: 360px) {
+  #menu,
+  #logo {
+    line-height: 30px;
+  }
+  #logo {
+    font-size: 110%;
+    margin-left: 30px;
+  }
+  #cover-text {
+    font-size: 110%;
+    width: 300px;
+    padding-top: 20px;
+  }
+}
+
+/*media query*/
+/*for larger to medium screen sizes from 850px wide and down*/
+@media screen and (max-width: 850px) {
+  .form-section {
+    clear: left;
     background: url("assets/images/forbidden_city_overview_sm.jpg");
     background-size: cover;
     background-position: center;
     height: 100%;
-    width:100%;
-    opacity:0.5;
-}
-#signup-container{
-    background-color: transparent;
-    height: 100px;
-    width:100px;
-    padding:20px;
-    margin: 59px;
-    max-width: 572px;
-}
-.bg-img {
-    background-image: url("assets/images/forbidden_city_overview_2md.jpg");
-    min-height: 380px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    width: 100%;
     opacity: 0.5;
   }
-.signup-form {
+  #signup-container {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 59px;
+    max-width: 572px;
+  }
+  .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgb(106, 97, 97);
@@ -265,14 +400,13 @@ h3{
     position: absolute;
     left: 10%;
     padding: 30px;
-}
+  }
 
-.signup-form > h2 {
-    
+  .signup-form > h2 {
     margin-bottom: 20px;
-}
+  }
 
-.text-input {
+  .text-input {
     background: transparent;
     color: #ffffff;
     width: 100%;
@@ -280,13 +414,13 @@ h3{
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-}
+  }
 
-.text-input:hover {
+  .text-input:hover {
     border-color: #6c1010;
-}
+  }
 
-.join-button {
+  .join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -295,383 +429,255 @@ h3{
     background-color: #6c1010;
     color: #fafafa;
     display: block;
-}
+  }
 
-.join-button:hover {
+  .join-button:hover {
     background-color: #fafafa;
     color: #6c1010;
-}
+  }
 
-.radio-buttons {
+  .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-.join-button {
+  }
+  .join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
-}
-
-
-/*footer*/
-footer{
-    height:150px;
-}
-.social-networks{
-    text-align:center;
-}
-.social-networks >li{
-    display: inline;
-}
-.social-networks  i{
-    font-size:160%;
-    margin:1%;
-    padding:5%;
-    color:#615e5e;
-}
-/*Legacy(photos)*/
-#photos{
-clear:both;
-line-height: 0%;
-column-count:4;
-column-gap: 0;
-}
-#photos > img{
-    width:100%;
-}
-/*media query*/
-/*for larger to small screen sizes from 360px wide and down*/
-@media screen and (max-width:360px) { 
-    #menu, #logo {
-        line-height: 30px;
-    }
-      #logo {
-        font-size: 110%;
-        margin-left:30px;
-    }
-    #cover-text{
-        font-size: 110%;
-        width: 300px;
-        padding-top: 20px;
-    }
-}
-
-/*media query*/
-/*for larger to medium screen sizes from 850px wide and down*/
-@media screen and (max-width:850px) {
-    .form-section {
-        clear:left;
-        background: url("assets/images/forbidden_city_overview_sm.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-        width:100%;
-        opacity:0.5;
-    }
-    #signup-container{
-        background-color: transparent;
-        height: 100px;
-        width:100px;
-        padding:20px;
-        margin: 59px;
-        max-width: 572px;;
-    }
-    .signup-form {
-        margin: 150px 10% 0 0;
-        color: #fff;
-        background-color: rgb(106, 97, 97);
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        padding: 30px;
-    }
-    
-    .signup-form > h2 {
-        
-        margin-bottom: 20px;
-    }
-    
-    .text-input {
-        background: transparent;
-        color: #ffffff;
-        width: 100%;
-        height: 25px;
-        margin: 5px 0 20px 0;
-        border: 1px solid #fafafa;
-        border-radius: 2px;
-    }
-    
-    .text-input:hover {
-        border-color: #6c1010;
-    }
-    
-    .join-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px 15px 32px;
-        text-align: center;
-        font-size: 100%;
-        background-color: #6c1010;
-        color: #fafafa;
-        display: block;
-    }
-    
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #6c1010;
-    }
-    
-    .radio-buttons {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .join-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px;
-        font-size: 100%;
-        background-color: #454b1b;
-        color: #fafafa;
-    }
-    .bg-img {
-        background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
-        min-height: 380px;
-        background-size: cover;
-        position: relative;
-      }
-}
-
-
-/*media query*/
-/*for larger to medium screen sizes from 1200px wide and down*/
-@media screen and (max-width:1200px) {
-    #Presentation-of-life{
-        width:65%;
-        height:1200px;
-        margin:0 auto;
-    }
-    #welcome{
-        padding:30px 0;
-        margin:0;
-    }
-    #left-about, #right-about{
-        width: 100%;
-        float:left;
-        padding:0;
-    }
-    #center-about{
-        clear:both;
-        width:100%;
-        float:left;
-        padding:0;
-    }
-    #achievements > div{
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-    hr{
-        display: none;
-    }
- 
-}
-/*for medium screen sizes from 950px wide and down*/
-@media screen and (max-width:950px) {
-    #menu{
-        clear:left;
-        float:left;
-        margin-left:30px;
-        margin-bottom: 20px;
-        line-height: 20px;
-    }
-    #cover-text{
-        left:0;
-    }
-    #Presentation-of-life{
-        width:90%;
-        height:1200px;
-        margin:0 auto;
-}
-.left-about-heading,.right-about-heading{
-    width: inherit;
-}
-.left-about-heading h2,.right-about-heading h2{
-    width: 100%;
-    text-align: center;
-}
-.left-about-heading p,.right-about-heading p{
-    text-align: center;
-    padding: 0 20px;
-}
-#legacy{
-    column-count: 3;
-
-}
-}
-/*for small screen sizes 800px and down*/
-@media screen and (max-width:800px) {
-    #legacy{
-        column-count: 2;
-    }
-}
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
-}
-
-
-
-/* Media query: large or landscape phones (850px and up) */
-@media screen and (min-width: 850px){
-
-    #signup-form {
-        max-width: 500px;
-        position: absolute;
-        left: 10%;
-        top: 200px;
-    }
-
-    #signup-form>h2 {
-        color: #fafafa;
-        margin-bottom: 20px;
-    }
-    .text-input:hover {
-        border-color: #bb0e0e;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-}
-
-
-#signup {
-    background-position: center;
-    position: relative;
-}
-.bg-img {
-    background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
-    min-height:800px;
+  }
+  .bg-img {
+    background-image: url("assets/images/forbidden_city_overview_2md.jpg")
+      no-repeat center center;
+    min-height: 380px;
     background-size: cover;
     position: relative;
   }
-#signup-form {
+}
+
+/*media query*/
+/*for larger to medium screen sizes from 1200px wide and down*/
+@media screen and (max-width: 1200px) {
+  #Presentation-of-life {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  #welcome {
+    padding: 30px 0;
+    margin: 0;
+  }
+  #left-about,
+  #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  #achievements > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+  }
+  hr {
+    display: none;
+  }
+}
+/*for medium screen sizes from 950px wide and down*/
+@media screen and (max-width: 950px) {
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  #cover-text {
+    left: 0;
+  }
+  #Presentation-of-life {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  .left-about-heading,
+  .right-about-heading {
+    width: inherit;
+  }
+  .left-about-heading h2,
+  .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .left-about-heading p,
+  .right-about-heading p {
+    text-align: center;
+    padding: 0 20px;
+  }
+  #legacy {
+    column-count: 3;
+  }
+}
+/*for small screen sizes 800px and down*/
+@media screen and (max-width: 800px) {
+  #legacy {
+    column-count: 2;
+  }
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #454b1b;
+}
+
+/* Media query: large or landscape phones (850px and up) */
+@media screen and (min-width: 850px) {
+  #signup-form {
     max-width: 500px;
     position: absolute;
     left: 10%;
     top: 200px;
-}
-.forbidden-city{
-    opacity: 0.5;
-   width: auto;
-  
-}
-#signup-form>h2 {
+  }
+
+  #signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
-}
-.text-input:hover {
+  }
+  .text-input:hover {
     border-color: #bb0e0e;
-}
+  }
 
-.join-button:hover {
+  .join-button:hover {
+    background-color: #fafafa;
+  }
+
+  #signup {
+    background-position: center;
+    position: relative;
+  }
+  .bg-img {
+    background-image: url("assets/images/forbidden_city_overview_2md.jpg")
+      no-repeat center center;
+    min-height: 800px;
+    background-size: cover;
+    position: relative;
+  }
+  #signup-form {
+    max-width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 200px;
+  }
+  .forbidden-city {
+    opacity: 0.5;
+    width: auto;
+  }
+  #signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+  }
+  .text-input:hover {
+    border-color: #bb0e0e;
+  }
+
+  .join-button:hover {
     background-color: #fafafa;
     color: #383e14;
+  }
 }
-}
-
 
 /* Footer */
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #9e9898;
+  font-size: 160%;
+  padding: 5%;
+  color: #9e9898;
 }
-
-
 
 /* Media query: large or landscape phones (850px and up) */
 @media screen and (min-width: 850px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 
-    #menu {
-        display: flex;
-    }
+  #menu {
+    display: flex;
+  }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
+  #menu > li {
+    padding-left: 1rem;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #logo {
-        font-size: 150%;
-        line-height: 50px;
-        margin: 0 0.5rem;
-    }
+  #logo {
+    font-size: 150%;
+    line-height: 50px;
+    margin: 0 0.5rem;
+  }
 
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
+  /* Main content */
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #d20909f6;
-    }
-    .nav-toggle-label {
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-right: 2rem;
-    }
-    #circle-container {
-        width: 300px;
-    }
-    h2{
-        font-size: 110%;
-    }
+  #menu a:hover {
+    border-bottom: 1px solid #d20909f6;
+  }
+  .nav-toggle-label {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  #circle-container {
+    width: 300px;
+  }
+  h2 {
+    font-size: 110%;
+  }
 }
 /*for larger to medium screen sizes from 1200px wide and down*/
-@media screen and (max-width:1200px) {
-    .nav-toggle-label {
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-right: 2rem;
-    }
-   header {
-        align-items: baseline;
-}
+@media screen and (max-width: 1200px) {
+  .nav-toggle-label {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  header {
+    align-items: baseline;
+  }
 }
