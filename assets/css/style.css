@@ -20,6 +20,8 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Old standard TT', sans-serif;
+    justify-content: space-between;
+    align-items: stretch
 }
 
 
@@ -112,7 +114,7 @@ color:#ffff;
 #hero-image{
     height:600px;
     width:100%;
-    background-image:url('assets/images/hero-image.jpg')no-repeat center center;
+    background-image:url('assets/images/hero-image.jpg') no-repeat center center;
 }   
       
     #cover-text{
@@ -305,8 +307,8 @@ h3{
     color: #fafafa;
 }
 .bg-img {
-    background-image: url("assets/images/forbidden_city_overview_2md.jpg")no-repeat center center;
-    min-height: 380px;
+    background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
+    min-height:600px;
     background-size: cover;
     position: relative;
   }
@@ -419,7 +421,7 @@ column-gap: 0;
         color: #fafafa;
     }
     .bg-img {
-        background-image: url("assets/images/forbidden_city_overview_2md.jpg")no-repeat center center;
+        background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
         min-height: 380px;
         background-size: cover;
         position: relative;
@@ -510,13 +512,7 @@ column-gap: 0;
 
 /* Media query: large or landscape phones (850px and up) */
 @media screen and (min-width: 850px){
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-    * {
-        box-sizing: border-box;
-      }
+
     #signup-form {
         max-width: 500px;
         position: absolute;
@@ -538,43 +534,44 @@ column-gap: 0;
 
     .join-button:hover {
         background-color: #fafafa;
-        colo
+}
+
+
+#signup {
+    background-position: center;
+    position: relative;
+}
+.bg-img {
+    background-image:url("assets/images/forbidden_city_overview_2md.jpg") no-repeat center center;
+    min-height:600px;
+    background-size: cover;
+    position: relative;
+  }
+#signup-form {
+    max-width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 200px;
+}
+.forbidden-city{
+    opacity: 0.5;
+   width: auto;
+  
+}
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+.text-input:hover {
+    border-color: #bb0e0e;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #383e14;
 }
 }
 
-/* Media query: tablets and larger (800px and down) */
-@media screen and (min-width:800px) {
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-    * {
-        box-sizing: border-box;
-      }
-    #signup-form {
-        max-width: 500px;
-        position: absolute;
-        left: 10%;
-        top: 200px;
-    }
-    .forbidden-city{
-        opacity: 0.5;
-       width: auto;
-      
-    }
-    #signup-form>h2 {
-        color: #fafafa;
-        margin-bottom: 20px;
-    }
-    .text-input:hover {
-        border-color: #bb0e0e;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #383e14;
-    }
-}
 
 /* Footer */
 #social-networks {
@@ -593,8 +590,8 @@ column-gap: 0;
 
 
 
-/* Media query: large or landscape phones (800px and up) */
-@media screen and (min-width: 800px) {
+/* Media query: large or landscape phones (850px and up) */
+@media screen and (min-width: 850px) {
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -647,7 +644,7 @@ column-gap: 0;
         margin-right: 2rem;
     }
     #circle-container {
-        width: 200px;
+        width: 300px;
     }
     h2{
         font-size: 110%;
