@@ -244,53 +244,32 @@ h3 {
 }
 
 /* Form */
-.form-section {
-  clear: left;
-  background: url("assets/images/forbidden_city_overview_sm.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  opacity: 0.5;
-}
-#signup-container {
-  background-color: transparent;
-  height: 100px;
-  width: 100px;
-  padding: 20px;
-  margin: 59px;
-  max-width: 572px;
-}
-.bg-img {
-  background-image: url("assets/images/forbidden_city_overview_2md.jpg");
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  opacity: 0.5;
-}
-.signup-form {
-  margin: 150px 10% 0 0;
-  color: #fff;
-  background-color: rgb(106, 97, 97);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
+
+#signup {
+    margin-top: 75px;
+    flex-grow: 2;
 }
 
-.signup-form > h2 {
+#signup-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+#signup-form {
+  width:100%;
+  padding:5%;
+  box-sizing: border-box;
+}
+
+#signup-form > h2 {
   margin-bottom: 20px;
 }
 
 .text-input {
-  background: transparent;
-  color: #ffffff;
   width: 100%;
   height: 25px;
   margin: 5px 0 20px 0;
-  border: 1px solid #fafafa;
+  border: 1px solid #858585;
   border-radius: 2px;
 }
 
@@ -344,16 +323,19 @@ footer {
   padding: 5%;
   color: #615e5e;
 }
+
 /*Legacy(photos)*/
+
 #photos {
-  clear: both;
   line-height: 0%;
-  column-count: 4;
+  column-count: 1;
   column-gap: 0;
 }
+
 #photos > img {
   width: 100%;
 }
+
 /*media query*/
 /*for larger to small screen sizes from 360px wide and down*/
 @media screen and (max-width: 360px) {
@@ -369,92 +351,6 @@ footer {
     font-size: 110%;
     width: 300px;
     padding-top: 20px;
-  }
-}
-
-/*media query*/
-/*for larger to medium screen sizes from 850px wide and down*/
-@media screen and (max-width: 850px) {
-  .form-section {
-    clear: left;
-    background: url("assets/images/forbidden_city_overview_sm.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
-  }
-  #signup-container {
-    background-color: transparent;
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 59px;
-    max-width: 572px;
-  }
-  .signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgb(106, 97, 97);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-  }
-
-  .signup-form > h2 {
-    margin-bottom: 20px;
-  }
-
-  .text-input {
-    background: transparent;
-    color: #ffffff;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-  }
-
-  .text-input:hover {
-    border-color: #6c1010;
-  }
-
-  .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #6c1010;
-    color: #fafafa;
-    display: block;
-  }
-
-  .join-button:hover {
-    background-color: #fafafa;
-    color: #6c1010;
-  }
-
-  .radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
-  }
-  .bg-img {
-    background-image: url("assets/images/forbidden_city_overview_2md.jpg")
-      no-repeat center center;
-    min-height: 380px;
-    background-size: cover;
-    position: relative;
   }
 }
 
@@ -523,77 +419,20 @@ footer {
     text-align: center;
     padding: 0 20px;
   }
-  #legacy {
-    column-count: 3;
-  }
 }
-/*for small screen sizes 800px and down*/
-@media screen and (max-width: 800px) {
-  #legacy {
+
+/*for small screen sizes 600px and up*/
+@media screen and (min-width: 600px) {
+  #photos {
     column-count: 2;
   }
 }
-
-.join-button:hover {
-  background-color: #fafafa;
-  color: #454b1b;
-}
-
-/* Media query: large or landscape phones (850px and up) */
-@media screen and (min-width: 850px) {
-  #signup-form {
-    max-width: 500px;
-    position: absolute;
-    left: 10%;
-    top: 200px;
+/*for large screens sizes 1200px and up */
+@media screen and (min-width: 1200px) {
+    #photos {
+      column-count: 4;
+    }
   }
-
-  #signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-  }
-  .text-input:hover {
-    border-color: #bb0e0e;
-  }
-
-  .join-button:hover {
-    background-color: #fafafa;
-  }
-
-  #signup {
-    background-position: center;
-    position: relative;
-  }
-  .bg-img {
-    background-image: url("assets/images/forbidden_city_overview_2md.jpg")
-      no-repeat center center;
-    min-height: 800px;
-    background-size: cover;
-    position: relative;
-  }
-  #signup-form {
-    max-width: 500px;
-    position: absolute;
-    left: 10%;
-    top: 200px;
-  }
-  .forbidden-city {
-    opacity: 0.5;
-    width: auto;
-  }
-  #signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-  }
-  .text-input:hover {
-    border-color: #bb0e0e;
-  }
-
-  .join-button:hover {
-    background-color: #fafafa;
-    color: #383e14;
-  }
-}
 
 /* Footer */
 #social-networks {
@@ -610,13 +449,6 @@ footer {
   color: #9e9898;
 }
 
-/* Media query: large or landscape phones (850px and up) */
-@media screen and (min-width: 850px) {
-  #photos {
-    column-count: 2;
-    column-gap: 0;
-  }
-}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
