@@ -22,7 +22,9 @@ On this website there are some features. That will guide the visitor through the
 <br>
 + At the bottom  of the page is short video-link that shows the life story of Wu Zetian.
 <br>
-[Life story of Wu Zetian](https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)
+
+[Life story of Wu Zetian]
+(https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)
 
 ## Existing Features:
 
