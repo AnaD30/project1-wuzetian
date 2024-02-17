@@ -15,13 +15,13 @@ The goal from the me, the site creater is to make the site educational and enjoy
 
 # Features
 On this website there are some features. That will guide the visitor through the next major focus points on this website:
-<br>
-- A timeline of major events during her reign
-<br>
-* A gallery of images related to her life and reign
-<br>
+
++ A timeline of major events during her reign
+
++ A gallery of images related to her life and reign
+
 + At the bottom  of the page is short video-link that shows the life story of Wu Zetian.
-<br>
+
 
 [Life story of Wu Zetian]
 (https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)
