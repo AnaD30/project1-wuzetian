@@ -4,7 +4,7 @@
 # The first female emperor of China -Wu Zetian 
 ![mockup-picture](/assets/docs:README.md-images/mockup2.png)
 
-Wu Zetian is a static website about the life and reign of Wu Zetian, the only female emperor in the history of China. This website shows and demonstrate ´the life of Wu Zetian, achievements and legacy left behind.
+Wu Zetian is a static website about the life and reign of Wu Zetian, the only female emperor in the history of China. This website shows and demonstrate the life of Wu Zetian, achievements and legacy left behind.
 
 ## Table of Contents
 
@@ -137,18 +137,18 @@ Instructions on how to implement form validation on the Sign-Up page were taken 
 + [W3SCHOOL](https://www.w3schools.com/)
 
 The icons in the footer were taken from _Font Awesome_.
-+ [Font awesome](https://fontawesome.com/icons)
++ [Font Awesome](https://fontawesome.com/icons)
 
 # Media
 
-The photos used on the home and sign up page are from:
+The photos used on the home and sign-up page are from:
 * [Sixth tone](https://www.sixthtone.com/news/1011104)
-* [The beijinger:blog-site](https://www.thebeijinger.com/blog/2018/01/08/whats-name-why-it-called-forbidden-city)
+* [The Beijinger:blog-site](https://www.thebeijinger.com/blog/2018/01/08/whats-name-why-it-called-forbidden-city)
 
-The images used for the gallery page were taken from this other open source sites:
+The images used for the gallery page were taken from these other open source sites:
 + [Sixth tone](https://www.sixthtone.com/news/1011562)
 + [Association  for Asian Studies](https://www.asianstudies.org/publications/eaa/archives/wu-zhao-ruler-of-tang-dynasty-china/)
-+ [Shine:beyond a single story](https://www.shine.cn/feature/art-culture/2106060138/)
++ [Shine: beyond a single story](https://www.shine.cn/feature/art-culture/2106060138/)
 + [Quora](https://www.quora.com/How-did-Wu-Zetian-become-an-emperor)
 + [Love Science](https://www.livescience.com/52659-tomb-tells-tale-of-family-executed-by-china-s-1st-female-emperor.html)
 + [Shanghai daily](https://archive.shine.cn/sunday/Wu-Zetians-legacy-is-a-mystery/shdaily.shtml)
