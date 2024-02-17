@@ -15,6 +15,7 @@ h3 {
 }
 
 /* General styles */
+
 body {
   color: #3a3a3a;
   font-family: "Old standard TT", sans-serif;
@@ -32,6 +33,7 @@ body {
 }
 
 /* Navbar styles with dropdown toggle */
+
 nav {
   position: absolute;
   background-color: #ffffff;
@@ -44,6 +46,7 @@ nav {
 }
 
 /* Nav toggle */
+
 #nav-toggle:checked ~ nav {
   display: block;
 }
@@ -72,6 +75,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 header a {
   text-decoration: none;
   color: inherit;
@@ -82,27 +86,33 @@ header a {
   font-size: 110%;
   margin-left: 35px;
 }
+
 /*navigation links*/
 #menu {
   font-size: 110%;
   letter-spacing: 2px;
 }
+
 #menu,
 #logo {
   line-height: 20px;
 }
+
 #menu li {
   float: right;
   list-style-type: none;
   margin-right: 20px;
 }
+
 #menu a {
   text-decoration: none;
   color: inherit;
 }
+
 #menu a:hover {
   border-bottom: 1px solid #9b0a00;
 }
+
 .active {
   border-bottom: 1px solid #a70606f6;
 }
@@ -115,6 +125,7 @@ header a {
   margin-top: 70px;
   position: relative;
 }
+
 #cover-text,
 #cover-text h2,
 #cover-text h3 {
@@ -146,29 +157,35 @@ header a {
 
   position: absolute;
 }
+
 /*life of wu zetian*/
 #presentation-of-life {
   height: 600px;
 }
+
 #left-about {
   padding-top: 30px;
   width: 33%;
   float: left;
 }
+
 #right-about {
   padding-top: 30px;
   width: 33%;
   float: right;
 }
+
 #center-about {
   width: 33%;
   margin: 0 auto;
 }
+
 hr {
   border-top: solid 2px #3a3a33;
   width: 100%;
   margin: 6px 0;
 }
+
 .left-about-heading {
   width: 40%;
   float: right;
@@ -176,6 +193,7 @@ hr {
   clear: both;
   margin-bottom: 30px;
 }
+
 .right-about-heading {
   width: 40%;
   float: left;
@@ -183,9 +201,11 @@ hr {
   clear: both;
   margin-bottom: 30px;
 }
+
 .right-about-heading h2 {
   text-align: right;
 }
+
 .right-about-heading p {
   text-align: right;
 }
@@ -195,18 +215,20 @@ hr {
   margin: 20px;
   font-size: 260%;
 }
+
 #circle-container {
   width: 300px;
   height: 300px;
-  padding: 30px;
+  padding: 20px;
   border-style: solid;
   border-color: #8d8787;
   border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;
 }
+
 #circle-cover-bg {
-  background: url("assets/images/court-life.jpg") no-repeat center center;
+  background: url("../images/court-life.jpg") no-repeat center center;
   height: 100%;
   border-radius: 50%;
   margin: 0 auto;
@@ -218,15 +240,18 @@ hr {
   border-radius: 50%;
   object-fit: cover;
 }
+
 /*achievements*/
+
 #achievements > img {
-  background: url("../images/achievements1.jpg .jpg");
+  background: url("../images/achievements1sm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   overflow: hidden;
 }
+
 h3 {
   color: #ffffff;
 }
@@ -296,6 +321,7 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
 .join-button {
   margin-top: 20px;
   border-radius: 2px;
@@ -306,15 +332,19 @@ h3 {
 }
 
 /*footer*/
+
 footer {
   height: 150px;
 }
+
 .social-networks {
   text-align: center;
 }
+
 .social-networks > li {
   display: inline;
 }
+
 .social-networks i {
   font-size: 160%;
   margin: 1%;
@@ -336,57 +366,75 @@ footer {
 
 /*media query*/
 /*for larger to small screen sizes from 460px wide and down*/
+
 @media screen and (max-width: 460px) {
   #menu,
   #logo {
     line-height: 30px;
   }
+
   #logo {
     font-size: 110%;
     margin-left: 30px;
   }
+
   #cover-text {
     font-size: 110%;
     width: 260px;
     padding-top: 20px;
   }
+  #circle-container {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
 }
 
 /*media query*/
 /*for larger to medium screen sizes from 1200px wide and down*/
+
 @media screen and (max-width: 1200px) {
   #Presentation-of-life {
     width: 65%;
     height: 1200px;
     margin: 0 auto;
   }
+
   #welcome {
     padding: 30px 0;
     margin: 0;
   }
+
   #left-about,
   #right-about {
     width: 100%;
     float: left;
     padding: 0;
   }
+
   #center-about {
     clear: both;
     width: 100%;
     float: left;
     padding: 0;
   }
+
   #achievements > div {
     width: 100%;
     clear: both;
     height: 150px;
     padding: 0;
   }
+
   hr {
     display: none;
   }
+
 }
+
 /*for medium screen sizes from 950px wide and down*/
+
 @media screen and (max-width: 950px) {
   #menu {
     clear: left;
@@ -395,36 +443,45 @@ footer {
     margin-bottom: 20px;
     line-height: 20px;
   }
+
   #cover-text {
     left: 0;
   }
+
   #Presentation-of-life {
     width: 90%;
     height: 1200px;
     margin: 0 auto;
   }
+
   .left-about-heading,
   .right-about-heading {
     width: inherit;
   }
+
   .left-about-heading h2,
   .right-about-heading h2 {
     width: 100%;
     text-align: center;
   }
+
   .left-about-heading p,
   .right-about-heading p {
     text-align: center;
     padding: 0 20px;
   }
+
 }
 
 /*for small screen sizes 600px and up*/
+
 @media screen and (min-width: 600px) {
   #photos {
     column-count: 2;
   }
+
 }
+
 /*for large screens sizes 1200px and up */
 @media screen and (min-width: 1200px) {
     #photos {
@@ -433,6 +490,7 @@ footer {
   }
 
 /* Footer */
+
 #social-networks {
   text-align: center;
   padding: 20px 0;
@@ -448,6 +506,7 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
+
 @media screen and (min-width: 768px) {
   /* Header */
   nav {
@@ -481,26 +540,34 @@ footer {
     /* Push main content down to accommodate larger header */
     margin-top: 79px;
   }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
+
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #d20909f6;
   }
+
   .nav-toggle-label {
     font-size: 2rem;
     margin-top: 2rem;
     margin-right: 2rem;
   }
+
   #circle-container {
     width: 300px;
   }
+
   h2 {
     font-size: 110%;
   }
+
 }
+
 /*for larger to medium screen sizes from 1200px wide and down*/
+
 @media screen and (max-width: 1200px) {
   .nav-toggle-label {
     font-size: 2rem;
@@ -510,4 +577,6 @@ footer {
   header {
     align-items: baseline;
   }
+
 }
+

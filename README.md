@@ -22,7 +22,7 @@ On this website there are some features. That will guide the visitor through the
 <br>
 + At the bottom  of the page is short video-link that shows the life story of Wu Zetian.
 <br>
-[Link to a video about-Wu Zetian](https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)
+[Life story of Wu Zetian](https://www.youtube.com/watch?v=iwJ_7XHhXQ8&t=1s&ab_channel=SeeUinHistory%2FMythology)
 
 ## Existing Features:
 
@@ -30,7 +30,7 @@ On this website there are some features. That will guide the visitor through the
 
 ### Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Home, legacy page, and Sign Up page also referred to Rise to power and is identical in each page to allow for easy navigation.
+Featured on all three pages, the full responsive navigation bar includes links to the Home, Legacy page, and Sign up form also referred to Rise to power. Each site is  identical and it  allows for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ## The landing page image
@@ -38,15 +38,15 @@ This section will allow the user to easily navigate from page to page across all
 ![landing-page](/assets/docs:README.md-images/mainpage2.png)
 
 The landing page includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention.
+This section introduces the user to Wu Zetian, the female emperor with eye-catching colours and images to grab their attention.
 
 ## Presentation of Life Section:
 
-The achievements section we are going through the life achievments of Wu Zetian.
+In the achievements section we are going through the life achievements of Wu Zetian.
 
 ![presentation-of-life](/assets/docs:README.md-images/section2.png)
 
-- Firstly the life before the royal court, the life with the her family.
+- Firstly the life before the royal court, the life with her family.
 
 *  Secondly we start by the ascending of the throne or crown.
 
@@ -57,14 +57,14 @@ The achievements section we are going through the life achievments of Wu Zetian.
 ## Achievements section:
 
  This section will allow the user to read about the legacy left behind by Wu Zetian.
- We provide also the timeline of the major events that shaped the reign of the Female emperor so the visitor has a visual and contextual picture of the Tang dynasty and later Zhou dynasty.
+ We provide also the timeline of the major events that shaped the reign of the Female emperor Wu Zetian so the visitor has a visual and contextual picture of the legacy left behind.
 
 ![achievements-section](/assets/docs:README.md-images/section3.png)
 
 
-- her reign in it as the only Female Emperor
+- her reign as the only Female Emperor
 
-*  implementation of knowledge before,privilege of royal blood
+*  opens the door to anyone willing to learn to become an official figure no matter of the status's 
 
 +  cultural achievements, meaning religion allivation of Buddhismus 
 
@@ -79,15 +79,15 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 # Legacy
 
-The legacy par of the site will provide the user with supporting images to see some of the achievements and legacy left behind by Wu Zetian.
-This section is valuable to the user it shows what was made possible at that period and how much has been preserved.
+The legacy part of the site will provide the user with supporting images to see some of the achievements and legacy left behind by Wu Zetian.
+This section is valuable to the  user as it shows what was made possible at that period and how much is possible to view today.
 
 ![legacy](/assets/docs:README.md-images/legacy1.png)
 
-# The Sign Up Page to  a Newsletter
+# The Sign-Up Page to  a Newsletter
 
-This page will allow the user to get signed up to Wu Zetian newsletter to start their journey through history of  teh Tang Dynasty.The user will be asked to submit their full name and email address.
-![sign up](/)
+This page will allow the user to get signed up for the Wu Zetian newsletter to start their journey through the history of the Tang Dynasty's only female Emperor. The user will be asked to submit their full name and email address.
+![sign up](/assets/docs:README.md-images/signupform.png)
 
 ## Testing
 
@@ -98,32 +98,46 @@ There are features like media query  that makes it possible that the website is 
 ### Validator Testing
 
 #### HTML
-No errors were returned when passing through the official W3C validator
+No errors were returned when passing through the official _W3C validator_
 
-[W3C validator](https://validator.w3.org/)
+[Validated code on the website: Wu Zetian](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fanad30.github.io%2Fproject1-wuzetian%2F)
 
 #### CSS
 
-No errors were found when passing through the official validator.
+No errors were found when passing through the official validator _Jigsaw_.
 
- [Jigsaw](https://jigsaw.w3.org/css-validator/)
+ [Validated code on the website: Wu Zetian](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanad30.github.io%2Fproject1-wuzetian%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-* Accessibility 
+#  Accessibility 
 I check the accessibility of the page through the lighthouse tool.
 
 ![lighthouse-tool-photo](assets/docs:README.md-images/lighthouse2.png)
 
+# Testing of the responsiveness 
+
+This site was manually tested . We used the deployed site to check the responsivness of the site on different devices. The screens that were used are laptop, mobile and tablet views. 
+
+> Notice:
+> We noticed that the deployed site had the riches colours on the mobile device view.
+
 ## Solved Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+There were some issues with the rise to power sign-up form in that the background image didn't want to cover the screen. It was taken out for that matter—also some initial styling of the website to fit from desktop to mobile view. 
 
 # Credits
 
-To provide the best visitor experience we also look up fo external links.
+To provide the best visitor experience we also look up for external links.
 
 # Content
 The text for the Home page was taken from _Wikipedia about Wu Zetian_.
+
++ [Wikipedia:Wu Zetian](https://en.wikipedia.org/wiki/Wu_Zetian)
+
 Instructions on how to implement form validation on the Sign-Up page were taken from a learning platform: _W3SCHOOLS._
+
++ [W3SCHOOL](https://www.w3schools.com/)
+
 The icons in the footer were taken from _Font Awesome_.
++ [Font awesome](https://fontawesome.com/icons)
 
 # Media
 
@@ -131,7 +145,7 @@ The photos used on the home and sign up page are from:
 * [Sixth tone](https://www.sixthtone.com/news/1011104)
 * [The beijinger:blog-site](https://www.thebeijinger.com/blog/2018/01/08/whats-name-why-it-called-forbidden-city)
 
-The images used for the gallery page were taken from this other open source site:
+The images used for the gallery page were taken from this other open source sites:
 + [Sixth tone](https://www.sixthtone.com/news/1011562)
 + [Association  for Asian Studies](https://www.asianstudies.org/publications/eaa/archives/wu-zhao-ruler-of-tang-dynasty-china/)
 + [Shine:beyond a single story](https://www.shine.cn/feature/art-culture/2106060138/)
